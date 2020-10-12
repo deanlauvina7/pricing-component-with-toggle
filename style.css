@@ -8,18 +8,80 @@ body,
 html {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  color: #fd708d;
-  background-color: #f6f6fe;
+  color: hsl(232, 13%, 33%);
+  background-color: hsl(240, 78%, 98%);
   background-image: url(/images/bg-top.svg), url(/images/bg-bottom.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: top 0rem, right 0rem, bottom -4.6rem, left 0rem;
+  background-position: top 0rem right 0rem, bottom -4.6rem left 0rem;
 }
 
 main {
-  background-color: blue;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(233, 13%, 49%);
+  font-size: 32px;
+}
+
+.toggle-container {
+  color: hsl(234, 14%, 74%);
+  margin: 2.5rem;
+  font-size: 16px;
+}
+
+.toggle-container input {
+  margin: 0 1rem;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.price-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 25rem;
+}
+
+.price-box h4 {
+  color: hsl(233, 13%, 49%);
+}
+
+.price-box p {
+  font-size: 4em;
+  margin: 1rem;
+}
+
+.price-box ul {
+  list-style-type: none;
+  padding-bottom: 25px;
+  border-top: 1px solid hsl(234, 14%, 74%);
+}
+
+.price-box ul li {
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding: 15px 0;
+}
+
+.price-box button {
+  background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  padding: 15px;
+  width: 20rem;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 5px;
 }

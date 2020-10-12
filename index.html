@@ -5,77 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <title>Pricing Component</title>
 
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
 
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
 
-</head>
-<body>
+  </head>
 
-<main>
-<h1>Our Pricing</h1>
+  <body>
+    <main>
+      <h1>Our Pricing</h1>
 
-<div class="toggle-container">
-  <span>Annually</span>
-    <label for="toggle"></label>
-    <input type="checkbox" name="toggle" id="toggle">
-    <span>Monthly</span>
-</div>
+      <div class="toggle-container">
+        <span>Annually</span>
+        <label for="toggle"></label>
+        <input type="checkbox" name="toggle" id="toggle">
+        <span>Monthly</span>
+      </div>
 
-  <div class="pricing-container">
-<div class="basic-container">
-<h3>Basic</h3>
-<p>&dollar;19.99</p>
-<ul>
-  <li>500 GB Storage</li>
-  <li>2 Users Allowed</li>
-  <li>Send up to 3 GB</li>
-</ul>
+      <div class="pricing-container">
+        <div class="price-box">
+          <h4>Basic</h4>
+          <p>&dollar;19.99</p>
+          <ul>
+            <li>500 GB Storage</li>
+            <li>2 Users Allowed</li>
+            <li>Send up to 3 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </div>
 
-</div>
-  </div>
-</main>
+        <div class="price-box professional-box">
+          <h4>Professional</h4>
+          <p> &dollar;24.99</p>
+          <ul>
+            <li>1 TB Storage</li>
+            <li>5 Users Allowed</li>
+            <li>Send up to 10 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </div>
 
-<footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </div>
-</footer>
+        <div class="price-box">
+          <h4>Master</h4>
+          <p>&dollar;39.99</p>
+          <ul>
+            <li>2 TB Storage</li>
+            <li>10 Users Allowed</li>
+            <li>Send up to 20 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </div>
 
-<script src="script.js"></script>  
-</body>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
 </html>
-
-    <!-- Our Pricing
-
-    Learn More
-
-    Professional
-    &dollar;24.99
-    &dollar;249.99
-    1 TB Storage
-    5 Users Allowed
-    Send up to 10 GB
-    Learn More
-
-    Master
-    &dollar;39.99
-    &dollar;399.99
-    2 TB Storage
-    10 Users Allowed
-    Send up to 20 GB
-    Learn More -->
