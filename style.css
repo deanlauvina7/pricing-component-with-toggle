@@ -10,5 +10,11 @@ html {
   font-size: 15px;
   color: #fd708d;
   background-color: #f6f6fe;
+  background-image: url(/images/bg-top.svg), url(/images/bg-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 0rem, right 0rem, bottom -4.6rem, left 0rem;
+}
 
+main {
+  height: 100vh;
 }
