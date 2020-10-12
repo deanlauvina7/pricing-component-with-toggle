@@ -3,3 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body,
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #fd708d;
+  background-color: #f6f6fe;
+
+}
