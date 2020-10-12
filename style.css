@@ -16,5 +16,10 @@ html {
 }
 
 main {
+  background-color: blue;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
