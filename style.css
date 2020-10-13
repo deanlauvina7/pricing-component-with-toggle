@@ -147,6 +147,18 @@ footer {
   align-content: center;
 }
 
+footer li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer-nav {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1024px) {
   .pricing-container {
